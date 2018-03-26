@@ -1,0 +1,32 @@
+{
+  "name": "api-authentication",
+  "version": "1.0.0",
+  "description": "Learning and Implementing API authentication with JWT.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebDevTips/api-authentication.git"
+  },
+  "author": "pandaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebDevTips/api-authentication/issues"
+  },
+  "homepage": "https://github.com/WebDevTips/api-authentication#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "nodemon": "^1.17.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.1",
+    "morgan": "^1.9.0"
+  }
+}
